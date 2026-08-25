@@ -1,7 +1,4 @@
 import React from "react";
-import { useState } from 'react';
-import { movies } from './data/movies'; // Adjust the import path if needed
-import MovieCard from './components/MovieCard';
 import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar.jsx";
 import Footer from "./components/Footer.jsx";
