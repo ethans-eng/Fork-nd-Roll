@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { Link, useSearchParams } from "react-router-dom";
 import MovieGrid from "../components/MovieGrid.jsx";
-import movies from "../data/movies.js";
 
 function Home() {
   const [searchParams, setSearchParams] = useSearchParams();
